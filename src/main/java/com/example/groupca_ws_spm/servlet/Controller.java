@@ -2,7 +2,7 @@ package com.example.groupca_ws_spm.servlet;
 
 import java.io.*;
 
-import Library.User;
+import com.example.groupca_ws_spm.business.User;
 import com.example.groupca_ws_spm.repositories.UserDao;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;

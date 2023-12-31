@@ -1,7 +1,9 @@
 package com.example.groupca_ws_spm.repositories;
 
 
-import business.User;
+
+
+import com.example.groupca_ws_spm.business.User;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -340,4 +342,4 @@ public class UserDao extends Dao implements UserDaoInterface
             System.out.println("Password now contains: " + u.getPassword());
         }
     }
-}
+

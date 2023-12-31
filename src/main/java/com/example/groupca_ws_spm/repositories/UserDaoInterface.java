@@ -1,10 +1,12 @@
 package com.example.groupca_ws_spm.repositories;
 
-import Library.User;
+
+
+import com.example.groupca_ws_spm.business.User;
 
 import java.util.List;
 
-public class UserDaoInterface {
+public interface UserDaoInterface {
     List<User> findAllUsers();
     User findUserByUsernamePassword(String uname, String pword);
     User findUserById(int id);
